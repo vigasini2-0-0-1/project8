@@ -1,0 +1,74 @@
+<html>
+	<style>.nav{
+
+		background-color:FEE407;
+		height: 67px;
+		width:100%;
+		text-align: center;
+		font-style: bold;
+		font-size:30;
+		
+		}
+		.header{
+    background-color: #ff1a1a;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    padding-top: 18px;
+
+}
+.button {
+  background-color: #1018DD; 
+ width:10%;
+  color: white;
+  padding: 5px 19px;
+  text-align: center;
+  font-size: 20;
+  }
+.p{
+	padding: 7px ;
+	
+}
+.b{
+	font-size: 21px;
+}
+
+</style>
+	<body style="background-color: #4dffff">
+
+<center>
+	<div class="nav header">
+		<b>PERSONAL INFORMATION OF TRANSPORT MANAGEMENT USER</b>
+		</div>
+<h3></h3>
+<br>
+<br>
+		<form   method="post">
+            
+			<b ><span class="b">NAME</span><input style="margin-left: 138px;" type="text" class="p " placeholder="Enter your name" name="username"  size="50"value=""/></b><br/>
+			<br>
+	
+			<br>
+			<b><span class="b">EMAIL</span><input type="text" style="margin-left: 136px" class="p " name="email" placeholder="Enter your mailid" size="50" value=""/></b><br/>
+			<br>
+			<br>
+			<b><span class="b">MOBILE NUMBER</span><input type="text" style="margin-left: 19px"  class="p " name="phoneno" placeholder="Enter your mobile number" size="50"value=""/></b><br/>
+			<br>
+			<br>
+			<b><span class="b">CITY</span><input type="text" name ="city" style="margin-left: 145px" class="p " size="50" placeholder="Enter your city" value=""/></b><br/>
+			<br>
+			<br>
+			<b><span class="b">WORKLOCATION</span><input type="text" style="margin-left: 23px" class="p " name ="worklocation" placeholder="Enter your worklocation" size="50"value=""/></b><br/>
+			<br>
+			<br>
+			<br>
+		
+			<input type="submit" name="login" value="insert" class="button" formaction="http://localhost:3000/save"/>
+			<input type="submit" name="update" value="update" class="button"  formaction="http://localhost:3000/save"/>
+			<input type="submit" name="del" value="Delete"  class="button" formaction="http://localhost:3000/del"/>
+			<!--a href="http://localhost:3000/login">Login</a>
+			<a href="http://localhost:3000/save">Save</a-->
+		</form>
+	</center>
+	</body>
+</html>
